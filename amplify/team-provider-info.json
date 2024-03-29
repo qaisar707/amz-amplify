@@ -1,0 +1,55 @@
+{
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyreact-main-113714-authRole",
+      "UnauthRoleArn": "arn:aws:iam::677547046118:role/amplify-amplifyreact-main-113714-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::677547046118:role/amplify-amplifyreact-main-113714-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyreact-main-113714-deployment",
+      "UnauthRoleName": "amplify-amplifyreact-main-113714-unauthRole",
+      "StackName": "amplify-amplifyreact-main-113714",
+      "StackId": "arn:aws:cloudformation:us-east-1:677547046118:stack/amplify-amplifyreact-main-113714/1c1a2710-a89a-11ee-8cfc-0e1593465e19",
+      "AmplifyAppId": "d3awfsnk37wqbo",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifyreact-main-113714-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "amplifyreacta13944a0": {}
+      },
+      "api": {
+        "amplifyblog": {},
+        "restApi": {},
+        "restAPi2": {}
+      },
+      "function": {
+        "restLambda": {
+          "deploymentBucketName": "amplify-amplifyreact-main-113714-deployment",
+          "s3Key": "amplify-builds/restLambda-4357584c79786b763462-build.zip"
+        },
+        "restApiLambda": {
+          "restApiSec": "secret",
+          "deploymentBucketName": "amplify-amplifyreact-main-113714-deployment",
+          "s3Key": "amplify-builds/restApiLambda-4a6e56736a6452346878-build.zip"
+        }
+      }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyreact-dev-161604-authRole",
+      "UnauthRoleArn": "arn:aws:iam::677547046118:role/amplify-amplifyreact-dev-161604-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::677547046118:role/amplify-amplifyreact-dev-161604-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyreact-dev-161604-deployment",
+      "UnauthRoleName": "amplify-amplifyreact-dev-161604-unauthRole",
+      "StackName": "amplify-amplifyreact-dev-161604",
+      "StackId": "arn:aws:cloudformation:us-east-1:677547046118:stack/amplify-amplifyreact-dev-161604/80e0b950-a572-11ee-9222-0a1604445971",
+      "AmplifyAppId": "d109gq1e061i4w"
+    },
+    "categories": {
+      "auth": {
+        "amplifyreacta13944a0": {}
+      }
+    }
+  }
+}
